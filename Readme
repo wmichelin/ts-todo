@@ -1,0 +1,10 @@
+Installation:
+
+`npm install`
+
+To automatically build on file change
+`webpack --progress --colors --watch`
+
+To automatically run once the bundle is built 
+`brew install entr`
+`find dist/*  | entr node dist/bundle.js`
